@@ -1,0 +1,24 @@
+body{
+    background: plum;
+    margin: 0 auto;
+}
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: palevioletred;
+  position:absolute;
+  animation-name: moveit;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveit {
+  0%   {background-color:rebeccapurple; left:0px; top:0px;}
+  25%  {background-color:rosybrown; left:200px; top:0px;}
+  50%  {background-color:purple; left:200px; top:200px;}
+  75%  {background-color:palevioletred; left:0px; top:200px;}
+  100% {background-color:peachpuff; left:0px; top:0px;}
+}
+
